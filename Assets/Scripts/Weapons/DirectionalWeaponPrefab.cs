@@ -15,7 +15,8 @@ public class DirectionalWeaponPrefab : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         float randomAngle = Random.Range(-0.2f, 0.2f);
         rb.linearVelocity = new Vector3(
-            direction.x * weapon.stats[weapon.weaponLevel].speed + randomAngle, direction.y * weapon.stats[weapon.weaponLevel].speed + randomAngle);
+            direction.x * weapon.stats[weapon.weaponLevel].speed + randomAngle,
+            direction.y * weapon.stats[weapon.weaponLevel].speed + randomAngle);
         //Destroy(gameObject, weapon.stats[weapon.weaponLevel].duration);
         AudioController.Instance.PlaySound(AudioController.Instance.directionalWeaponSpawn);
     }

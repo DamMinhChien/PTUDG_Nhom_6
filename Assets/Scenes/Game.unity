@@ -54515,7 +54515,7 @@ MonoBehaviour:
   playerMoveDirection: {x: 0, y: 0, z: 0}
   lastMoveDirection: {x: 0, y: 0, z: 0}
   playerMaxHealth: 10
-  playerHealth: 0
+  playerHealth: 10
   experience: 0
   currentLevel: 1
   maxLevel: 30

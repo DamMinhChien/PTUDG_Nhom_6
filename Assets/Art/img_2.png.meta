@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a32d4f2c39beb1941a9b42bf5ea75488
+guid: 719ba3d89ffd850439acbdde5bef0214
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5901114998017380746
-    second: img_2_0
+      213: 3039004213859321421
+    second: anh3_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -100,23 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: img_2_0
+      name: anh3_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 1536
-        height: 1024
+        y: 329
+        width: 1024
+        height: 618
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 67ea17cbc270b1ea0800000000000000
-      internalID: -5901114998017380746
+      spriteID: d46000e2b36bc2a20800000000000000
+      internalID: 3039004213859321421
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a31549db394a37149b91a34c17cfd55c
     internalID: 0
     vertices: []
     indices: 
@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      anh3_0: 3039004213859321421
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
