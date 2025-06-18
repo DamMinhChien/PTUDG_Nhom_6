@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 public class MenuManager : MonoBehaviour
 {
     public void NewGame(){
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("Start");
     }
 
     public void QuitGame(){
